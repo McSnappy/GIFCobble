@@ -5,7 +5,7 @@
 ___________________________________________________
 
     
-Basic Usage 
+Usage 
 -----------
 (taken from the included sample project)
 
