@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F26F95C1E64DC2C004D58D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F26F95B1E64DC2C004D58D6 /* Assets.xcassets */; };
+		3F26F9631E64DC2C004D58D6 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F26F9621E64DC2C004D58D6 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F26F9681E64DC2C004D58D6 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F26F9671E64DC2C004D58D6 /* Messages.framework */; };
+		3F26F96C1E64DC2C004D58D6 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26F96B1E64DC2C004D58D6 /* MessagesViewController.m */; };
+		3F26F96F1E64DC2D004D58D6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F26F96D1E64DC2D004D58D6 /* MainInterface.storyboard */; };
+		3F26F9711E64DC2D004D58D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F26F9701E64DC2D004D58D6 /* Assets.xcassets */; };
+		3F26F9891E64DCE5004D58D6 /* GIFCobble685Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26F97E1E64DC81004D58D6 /* GIFCobble685Palette.m */; };
+		3F26F98A1E64DCE8004D58D6 /* GIFCobbleAdaptivePalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26F9801E64DC81004D58D6 /* GIFCobbleAdaptivePalette.m */; };
+		3F26F98B1E64DCEB004D58D6 /* GIFCobbleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26F9821E64DC82004D58D6 /* GIFCobbleColor.m */; };
+		3F26F98C1E64DCED004D58D6 /* GIFCobbleEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26F9841E64DC82004D58D6 /* GIFCobbleEncoder.m */; };
+		3F26F98D1E64DCF0004D58D6 /* GIFCobbleGrayPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26F9861E64DC82004D58D6 /* GIFCobbleGrayPalette.m */; };
+		3F26F98E1E64DCF2004D58D6 /* GIFCobblePalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26F9881E64DC82004D58D6 /* GIFCobblePalette.m */; };
+		3F26F9921E64E11D004D58D6 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F26F98F1E64E11D004D58D6 /* image1.png */; };
+		3F26F9931E64E11D004D58D6 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F26F9901E64E11D004D58D6 /* image2.png */; };
+		3F26F9941E64E11D004D58D6 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F26F9911E64E11D004D58D6 /* image3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F26F9641E64DC2C004D58D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F26F9521E64DC2C004D58D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F26F9611E64DC2C004D58D6;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F26F9781E64DC2D004D58D6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F26F9631E64DC2C004D58D6 /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F26F9581E64DC2C004D58D6 /* ExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F26F95B1E64DC2C004D58D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F26F95D1E64DC2C004D58D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F26F9621E64DC2C004D58D6 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F26F9671E64DC2C004D58D6 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		3F26F96A1E64DC2C004D58D6 /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		3F26F96B1E64DC2C004D58D6 /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		3F26F96E1E64DC2D004D58D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		3F26F9701E64DC2D004D58D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F26F9721E64DC2D004D58D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F26F97D1E64DC81004D58D6 /* GIFCobble685Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFCobble685Palette.h; sourceTree = "<group>"; };
+		3F26F97E1E64DC81004D58D6 /* GIFCobble685Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFCobble685Palette.m; sourceTree = "<group>"; };
+		3F26F97F1E64DC81004D58D6 /* GIFCobbleAdaptivePalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFCobbleAdaptivePalette.h; sourceTree = "<group>"; };
+		3F26F9801E64DC81004D58D6 /* GIFCobbleAdaptivePalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFCobbleAdaptivePalette.m; sourceTree = "<group>"; };
+		3F26F9811E64DC82004D58D6 /* GIFCobbleColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFCobbleColor.h; sourceTree = "<group>"; };
+		3F26F9821E64DC82004D58D6 /* GIFCobbleColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFCobbleColor.m; sourceTree = "<group>"; };
+		3F26F9831E64DC82004D58D6 /* GIFCobbleEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFCobbleEncoder.h; sourceTree = "<group>"; };
+		3F26F9841E64DC82004D58D6 /* GIFCobbleEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFCobbleEncoder.m; sourceTree = "<group>"; };
+		3F26F9851E64DC82004D58D6 /* GIFCobbleGrayPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFCobbleGrayPalette.h; sourceTree = "<group>"; };
+		3F26F9861E64DC82004D58D6 /* GIFCobbleGrayPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFCobbleGrayPalette.m; sourceTree = "<group>"; };
+		3F26F9871E64DC82004D58D6 /* GIFCobblePalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFCobblePalette.h; sourceTree = "<group>"; };
+		3F26F9881E64DC82004D58D6 /* GIFCobblePalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFCobblePalette.m; sourceTree = "<group>"; };
+		3F26F98F1E64E11D004D58D6 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		3F26F9901E64E11D004D58D6 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		3F26F9911E64E11D004D58D6 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F26F95F1E64DC2C004D58D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F26F9681E64DC2C004D58D6 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F26F9511E64DC2C004D58D6 = {
+			isa = PBXGroup;
+			children = (
+				3F26F97C1E64DC81004D58D6 /* src */,
+				3F26F95A1E64DC2C004D58D6 /* ExampleProject */,
+				3F26F9691E64DC2C004D58D6 /* MessagesExtension */,
+				3F26F9661E64DC2C004D58D6 /* Frameworks */,
+				3F26F9591E64DC2C004D58D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F26F9591E64DC2C004D58D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F26F9581E64DC2C004D58D6 /* ExampleProject.app */,
+				3F26F9621E64DC2C004D58D6 /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F26F95A1E64DC2C004D58D6 /* ExampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				3F26F95B1E64DC2C004D58D6 /* Assets.xcassets */,
+				3F26F95D1E64DC2C004D58D6 /* Info.plist */,
+			);
+			path = ExampleProject;
+			sourceTree = "<group>";
+		};
+		3F26F9661E64DC2C004D58D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F26F9671E64DC2C004D58D6 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F26F9691E64DC2C004D58D6 /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3F26F98F1E64E11D004D58D6 /* image1.png */,
+				3F26F9901E64E11D004D58D6 /* image2.png */,
+				3F26F9911E64E11D004D58D6 /* image3.png */,
+				3F26F96A1E64DC2C004D58D6 /* MessagesViewController.h */,
+				3F26F96B1E64DC2C004D58D6 /* MessagesViewController.m */,
+				3F26F96D1E64DC2D004D58D6 /* MainInterface.storyboard */,
+				3F26F9701E64DC2D004D58D6 /* Assets.xcassets */,
+				3F26F9721E64DC2D004D58D6 /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		3F26F97C1E64DC81004D58D6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3F26F97D1E64DC81004D58D6 /* GIFCobble685Palette.h */,
+				3F26F97E1E64DC81004D58D6 /* GIFCobble685Palette.m */,
+				3F26F97F1E64DC81004D58D6 /* GIFCobbleAdaptivePalette.h */,
+				3F26F9801E64DC81004D58D6 /* GIFCobbleAdaptivePalette.m */,
+				3F26F9811E64DC82004D58D6 /* GIFCobbleColor.h */,
+				3F26F9821E64DC82004D58D6 /* GIFCobbleColor.m */,
+				3F26F9831E64DC82004D58D6 /* GIFCobbleEncoder.h */,
+				3F26F9841E64DC82004D58D6 /* GIFCobbleEncoder.m */,
+				3F26F9851E64DC82004D58D6 /* GIFCobbleGrayPalette.h */,
+				3F26F9861E64DC82004D58D6 /* GIFCobbleGrayPalette.m */,
+				3F26F9871E64DC82004D58D6 /* GIFCobblePalette.h */,
+				3F26F9881E64DC82004D58D6 /* GIFCobblePalette.m */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F26F9571E64DC2C004D58D6 /* ExampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F26F9791E64DC2D004D58D6 /* Build configuration list for PBXNativeTarget "ExampleProject" */;
+			buildPhases = (
+				3F26F9561E64DC2C004D58D6 /* Resources */,
+				3F26F9781E64DC2D004D58D6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F26F9651E64DC2C004D58D6 /* PBXTargetDependency */,
+			);
+			name = ExampleProject;
+			productName = ExampleProject;
+			productReference = 3F26F9581E64DC2C004D58D6 /* ExampleProject.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		3F26F9611E64DC2C004D58D6 /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F26F9751E64DC2D004D58D6 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				3F26F95E1E64DC2C004D58D6 /* Sources */,
+				3F26F95F1E64DC2C004D58D6 /* Frameworks */,
+				3F26F9601E64DC2C004D58D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = 3F26F9621E64DC2C004D58D6 /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F26F9521E64DC2C004D58D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					3F26F9571E64DC2C004D58D6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F26F9611E64DC2C004D58D6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F26F9551E64DC2C004D58D6 /* Build configuration list for PBXProject "ExampleProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F26F9511E64DC2C004D58D6;
+			productRefGroup = 3F26F9591E64DC2C004D58D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F26F9571E64DC2C004D58D6 /* ExampleProject */,
+				3F26F9611E64DC2C004D58D6 /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F26F9561E64DC2C004D58D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F26F95C1E64DC2C004D58D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F26F9601E64DC2C004D58D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F26F9921E64E11D004D58D6 /* image1.png in Resources */,
+				3F26F9941E64E11D004D58D6 /* image3.png in Resources */,
+				3F26F9711E64DC2D004D58D6 /* Assets.xcassets in Resources */,
+				3F26F9931E64E11D004D58D6 /* image2.png in Resources */,
+				3F26F96F1E64DC2D004D58D6 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F26F95E1E64DC2C004D58D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F26F98D1E64DCF0004D58D6 /* GIFCobbleGrayPalette.m in Sources */,
+				3F26F98A1E64DCE8004D58D6 /* GIFCobbleAdaptivePalette.m in Sources */,
+				3F26F96C1E64DC2C004D58D6 /* MessagesViewController.m in Sources */,
+				3F26F98E1E64DCF2004D58D6 /* GIFCobblePalette.m in Sources */,
+				3F26F98C1E64DCED004D58D6 /* GIFCobbleEncoder.m in Sources */,
+				3F26F9891E64DCE5004D58D6 /* GIFCobble685Palette.m in Sources */,
+				3F26F98B1E64DCEB004D58D6 /* GIFCobbleColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F26F9651E64DC2C004D58D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F26F9611E64DC2C004D58D6 /* MessagesExtension */;
+			targetProxy = 3F26F9641E64DC2C004D58D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F26F96D1E64DC2D004D58D6 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F26F96E1E64DC2D004D58D6 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F26F9731E64DC2D004D58D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F26F9741E64DC2D004D58D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F26F9761E64DC2D004D58D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ExampleProject.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3F26F9771E64DC2D004D58D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ExampleProject.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3F26F97A1E64DC2D004D58D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExampleProject/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ExampleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F26F97B1E64DC2D004D58D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExampleProject/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.ExampleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F26F9551E64DC2C004D58D6 /* Build configuration list for PBXProject "ExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F26F9731E64DC2D004D58D6 /* Debug */,
+				3F26F9741E64DC2D004D58D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F26F9751E64DC2D004D58D6 /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F26F9761E64DC2D004D58D6 /* Debug */,
+				3F26F9771E64DC2D004D58D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F26F9791E64DC2D004D58D6 /* Build configuration list for PBXNativeTarget "ExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F26F97A1E64DC2D004D58D6 /* Debug */,
+				3F26F97B1E64DC2D004D58D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F26F9521E64DC2C004D58D6 /* Project object */;
+}
