@@ -1,7 +1,7 @@
 # GIFCobble
 ###Create Animated GIFs in iOS
 
-![sample ss](https://github.com/McSnappy/GIFCobble/blob/master/ExampleProject/example-ss.png)
+![sample ss](https://github.com/McSnappy/GIFCobble/blob/master/ExampleProject/gifcobble.gif)
 ___________________________________________________
 
     
